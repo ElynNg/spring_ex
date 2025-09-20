@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
     tokenStore.subscribe(setAuth);
   }, []);
 
-  const login = (tokens: Token) => setTokenService(tokens);
+  const login = (tokens) => setTokenService(tokens);
   const logout = () => clearTokenService();
 
   return (
