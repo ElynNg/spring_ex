@@ -6,7 +6,6 @@ plugins {
 
 group = 'com.ex'
 version = '0.0.1-SNAPSHOT'
-description = 'Elynng's Spring Ex'
 
 java {
 	toolchain {
